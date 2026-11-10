@@ -30,7 +30,7 @@ HealthTrack is a personal fitness and wellness tracking website built with React
    ```
 2. Go into the project folder:
    ```bash
-   cd healthtrack
+   cd frontend
    ```
 3. Install dependencies:
    ```bash
