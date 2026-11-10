@@ -2,13 +2,13 @@ import { useState } from "react";
 
 const GOAL = 2000;
 
-// turns a date into text like "2026-11-10" (same style as your Home table)
+
 const getKey = (d) => {
   return d.getFullYear() + "-" + (d.getMonth() + 1) + "-" + d.getDate();
 };
 
 const LogMeals = () => {
-  // meals come from localStorage, or an empty list the first time
+
   const [meals, setMeals] = useState(JSON.parse(localStorage.getItem("meals")) || []);
   const [state, setState] = useState({ meal: "", calories: "" });
 
