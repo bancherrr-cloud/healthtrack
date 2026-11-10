@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# HealthTrack
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+HealthTrack is a personal fitness and wellness tracking website built with React for the CSCI426 Advanced Web Programming course (Project Phase 1). It helps users log their meals, exercises, and daily activities in one place.
 
-## Available Scripts
+**Live demo:** https://healthtrack-vqe3.vercel.app
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- 7 pages: Home, About, Services, Contact, Log Meals, Log Exercises, Log Daily Activities
+- Works on desktop and mobile
+- Dark mode toggle
+- Dynamic meal log: add and delete meals, with a daily calorie goal progress bar
+- Meals are saved in the browser with localStorage
+- Contact form, exercise form, and daily activity form
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- React (Create React App)
+- React Router
+- Bootstrap 5
+- Material UI icons
+- Git and GitHub
+- Deployed on Vercel
 
-### `npm test`
+## Setup Instructions
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/bancherrr-cloud/healthtrack.git
+   ```
+2. Go into the project folder:
+   ```bash
+   cd healthtrack
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the app:
+   ```bash
+   npm start
+   ```
+5. Open http://localhost:3000 in your browser.
 
-### `npm run build`
+## Screenshots
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Home
+![Home](Screenshots\Home.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Services
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Services](Services.png)
 
-### `npm run eject`
+### Log Meals
+![Log Meals](Screenshots\LogMeals.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Dark Mode
+![Dark Mode](Screenshots\DarkMode.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Mobile View
+![Mobile View](Screenshots\Mobile.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Project Structure
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+src/
+  Components/   NavBar, Footer
+  Pages/        Home, About, Services, Contact,
+                LogMeals, LogExercises, LogDailyActivities
+  App.js        Routes and dark mode state
+```
 
-## Learn More
+## Author
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Zein Baroud, Lebanese International University
