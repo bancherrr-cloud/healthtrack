@@ -45,20 +45,20 @@ HealthTrack is a personal fitness and wellness tracking website built with React
 ## Screenshots
 
 ### Home
-![Home](Screenshots\Home.png)
+![Home](Screenshots/Home.png)
 
 ### Services
 
-![Services](Services.png)
+![Services](Screenshots/Services.png)
 
 ### Log Meals
-![Log Meals](Screenshots\LogMeals.png)
+![Log Meals](Screenshots/LogMeals.png)
 
 ### Dark Mode
-![Dark Mode](Screenshots\DarkMode.png)
+![Dark Mode](Screenshots/DarkMode.png)
 
 ### Mobile View
-![Mobile View](Screenshots\Mobile.png)
+![Mobile View](Screenshots/Mobile.png)
 
 ## Project Structure
 
